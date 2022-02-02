@@ -1,0 +1,37 @@
+.turnpink {
+  color: pink;
+  background-color: yellow;
+}
+
+
+header {
+  background-color: blue;
+}
+
+footer {
+  background-color: lightgreen;
+}
+
+main {
+  color: darkblue;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: green;
+}
+
+.turnyellow {
+  background-color: : yellow;
+}
+
+#div {
+  background-color: lightblue;
+}
