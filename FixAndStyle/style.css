@@ -1,0 +1,43 @@
+header {
+  background-color: #CBC3E3;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  background-color: yellow;
+}
+
+#turnred {
+  color: red;
+}
+
+h4 {
+  background-color: green;
+}
+
+#turnyellow {
+  color: yellow;
+}
+
+#turnlightgreen {
+  background-color: #90ee90;
+}
+
+footer {
+  background-color: yellow;
+}
+
+#turnorange {
+  color: #FFA500;
+}
+
+a {
+ color: green;
+}
