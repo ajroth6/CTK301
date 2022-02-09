@@ -1,0 +1,65 @@
+.turnpink {
+  color: pink;
+  background-color: yellow;
+}
+
+
+header {
+  background-color: blue;
+}
+
+footer {
+  background-color: lightgreen;
+}
+
+main {
+  color: darkblue;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: green;
+}
+
+.turnyellow {
+  background-color: : yellow;
+}
+
+#div {
+  background-color: lightblue;
+}
+
+.customtext {
+font-family: sans-serif;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.imgbox {
+border: 10px solid #000000;
+background-color: white;
+}
+
+.headertext {
+font-style: italic;
+font-weight: normal;
+color: #FFA500;
+background-color: yellow;
+}
+
+body {
+background-image: url(isu-hero-image.jpg);
+}
