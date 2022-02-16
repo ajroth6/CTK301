@@ -1,0 +1,83 @@
+.notbold {
+  font-family: helvetica;
+  font-weight: normal;
+}
+
+.bold {
+  font-family: helvetica;
+  font-weight: bold;;
+}
+
+.justified {
+  text-align: justify;
+}
+
+body {
+  background-image: url(a5bg.png);
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+header {
+  background-color: white;
+  padding: 15px;
+  text-align: justify;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a:hover{
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul a{
+  display: inline-block;
+  width: 120px;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  list-style: none;
+  background-color: darkblue;
+}
+
+
+main {
+  background-color: white;
+  padding: 30px;
+}
+
+footer {
+  background-color: darkblue;
+  font-family: Verdana;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  display: block;
+  padding: 40px;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.border {
+    border: 7px solid white;
+}
+
+.line {
+  color: black;
+  height: 4px;
+  background-color: black;
+}
