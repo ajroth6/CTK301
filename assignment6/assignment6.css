@@ -1,0 +1,129 @@
+#wrapper {
+  margin: 1em auto;
+  padding: 14px;
+  width: 950px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 3px solid black;
+}
+
+header {
+  grid-column: span 4;
+  background-color: black;
+  padding: 4px;
+  color: white;
+  margin-left: 5px;
+}
+
+body {
+  background-image: url(a62.png);
+  padding-bottom: 50px;
+  margin-right: 120px;
+  margin-left: 115px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+
+}
+
+main {
+    grid-column: span 3;
+    margin-bottom: 25px;
+}
+
+main img{
+  float: left;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  grid-column: span 2;
+  border: 3px solid black;
+  padding: 9px;
+}
+
+aside {
+  grid-column: span 1;
+}
+
+.georgiatext {
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: justify;
+}
+
+nav li {
+  display: block;
+  text-decoration: none;
+  margin-left: -45px;
+}
+
+nav li a:hover{
+  background-color: darkred;
+  color: white;
+  text-decoration: none;
+  text-family: Helvetica;
+}
+
+nav ul a{
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  list-style: none;
+  background-color: red;
+  text-family: Helvetica;
+  text-decoration: none;
+  width: 180px;
+}
+
+.line {
+  grid-column: 4;
+  color: black;
+  height: 4px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: red;
+  border: 3px solid black;
+  color: white;
+  grid-column: span 4;
+  text-align: center;
+  font-family: Verdana;
+  font-style: italic;
+
+  margin: -17px;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+h2 {
+  font-family: Helvetica;
+  text-weight: bold;
+}
+
+ul {
+  font-family: Helvetica;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+  text-weight: bold;
+}
