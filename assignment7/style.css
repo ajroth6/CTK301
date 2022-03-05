@@ -1,0 +1,141 @@
+#wrapper {
+  margin: 1em auto;
+
+  width: 960px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 3px solid darkblue;
+}
+
+header {
+  grid-column: span 4;
+  background-image: linear-gradient(to bottom, blue, darkblue);
+  font-weight: normal;
+  color: lightblue;
+  padding: 10px;
+  padding-left: 20px;
+  font-family: helvetica;
+  font-style: italic;
+  list-style: none;
+
+}
+
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  grid-column: span 4;
+}
+
+
+body {
+  background-color: grey;
+}
+
+.header {
+  color: darkblue;
+  font-family: helvetica;
+  font-weight: normal;
+
+}
+
+
+.line {
+  grid-column: 4;
+  color: black;
+  height: 2px;
+  background-color: darkblue;
+  margin-bottom: 20px;
+  margin-top: -18px;
+}
+
+nav li a:hover{
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-family: Helvetica;
+  background-image: linear-gradient(to bottom, red, orange);
+
+}
+
+nav li a{
+  display: inline-block;
+  grid-column: span 4;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  list-style: none;
+  background-image: linear-gradient(to bottom, blue, darkblue);
+  font-family: Helvetica;
+  text-decoration: none;
+  width: 180px;
+}
+
+nav li a:visited{
+  color: purple;
+}
+
+main {
+    grid-column: span 4;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+nav img{
+  float: right;
+}
+
+main img{
+  float: left;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  grid-column: span 2;
+  border: 3px solid black;
+
+}
+
+.boldtext {
+  font-weight: bold;
+  text-align: justify;
+}
+
+footer {
+  background-color: darkred;
+  grid-column: span 4;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-top: 3px solid darkblue;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.h1 {
+    grid-column: span 4;
+}
+
+.floatright {
+  float: right;
+  margin-left: 15px;
+}
