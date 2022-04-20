@@ -14,7 +14,6 @@ body {
 
 h1 {
   margin-bottom: 0px;
-  font-family: 'Creepster', cursive;
 }
 
 header {
@@ -32,10 +31,6 @@ header {
   padding: 10px;
   margin: 20px;
 
-  border: 2px solid #999;
-  background-color: #ccc;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 10px;
 }
 
 #sideimg {
@@ -72,10 +67,39 @@ nav li a {
 
 nav li a:hover{
   text-decoration: line-through 4px;
-  color: red;
-  margin: 20px;
-  font-weight: bold;
 
 
-  text-shadow: 2px 2px 2px #000;
+}
+
+#myCarousel {
+  grid-column: span 6;
+
+}
+
+#caouselimage{
+  width: 80%;
+}
+
+.carousel {
+  color: #170724;
+
+
+}
+
+.carousel img {
+  width: 120%;
+}
+
+.carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  height: 500px;
+  margin-right: 6px;
+
+
+  background-color: #eee;
+  border-radius: 6px;
 }
