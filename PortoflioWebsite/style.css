@@ -9,6 +9,7 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
+  width:2300px;
 
 }
 
@@ -25,8 +26,8 @@ header {
 }
 
 #mainimg {
-  grid-column: span 8;
-  width: 90%;
+
+  width: 900px;
   padding: 10px;
   padding: 10px;
   margin: 20px;
@@ -66,7 +67,7 @@ nav li a {
 }
 
 nav li a:hover{
-  text-decoration: line-through 4px;
+  font-style: italic;
 
 
 }
@@ -76,9 +77,12 @@ nav li a:hover{
 
 }
 
-#caouselimage{
-  width: 80%;
+#myCarousel2 {
+  grid-column: span 6;
+
 }
+
+
 
 .carousel {
   color: #170724;
@@ -87,7 +91,15 @@ nav li a:hover{
 }
 
 .carousel img {
-  width: 120%;
+  width: 115%;
+}
+
+#personalprojects {
+  width: 620px;
+}
+
+#commissions {
+  width: 620px;
 }
 
 .carousel__slide {
@@ -96,10 +108,12 @@ nav li a:hover{
   justify-content: center;
 
   width: 80%;
-  height: 500px;
+  height: 720px;
   margin-right: 6px;
 
 
   background-color: #eee;
   border-radius: 6px;
 }
+
+#
