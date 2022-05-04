@@ -1,0 +1,151 @@
+body {
+  background-color: #ffffff;
+  font-family: Helvetica;
+}
+
+#wrapper {
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  width:2300px;
+
+}
+
+
+#portrait {
+  width: 720px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+header {
+
+    grid-column: span 3;
+    height: 105px;
+    padding: 4px;
+    padding-left: 0px;
+}
+
+#mainimg {
+
+  width: 900px;
+  padding: 10px;
+  padding: 10px;
+  margin: 20px;
+
+}
+
+#sideimg {
+  padding: 20px;
+  grid-column: span 3;
+  width: 80%;
+
+}
+
+#underline{
+  text-decoration: underline 4px;
+}
+
+nav {
+  grid-column: span 1;
+  color: black;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: black;
+}
+
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 4px;
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+
+}
+
+nav li a:hover{
+  font-style: italic;
+
+
+}
+
+#myCarousel {
+  grid-column: span 6;
+
+}
+
+#myCarousel2 {
+  grid-column: span 6;
+
+}
+
+
+
+.carousel {
+  color: #170724;
+
+
+}
+
+.carousel img {
+  width: 115%;
+}
+
+#personalprojects {
+  width: 620px;
+}
+
+#commissions {
+  width: 620px;
+}
+
+.carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  height: 720px;
+  margin-right: 6px;
+
+
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+#me {
+  width: 720px;
+      align-items: center;
+
+}
+
+#abouttitle {
+  grid-column: span 9;
+}
+
+#socials {
+  color: black;
+  grid-column: span 9;
+  height: 32px;
+
+}
+
+#header {
+  width: 1440px;
+  padding-top: 20px;
+
+}
